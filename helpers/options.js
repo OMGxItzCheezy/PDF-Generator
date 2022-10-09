@@ -9,7 +9,10 @@ module.exports = {
     footer:{
         height: '20mm',
         contents: {
-            first
+            first: 'Cover Page',
+            2: 'Second page',
+            default: '<span style = "color: #444;">{{page}}</span>/<span>{{pages}}</span>',
+            last: 'Last Page'
         }
     }
 }
